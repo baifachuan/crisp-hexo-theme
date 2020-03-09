@@ -22,6 +22,20 @@
     </saan>
   <% } %>
   </h3>
+
+  <h6 class="e-content article-entry" itemprop="articleBody">
+    <% if (post.excerpt && index){ %>
+      <%- post.excerpt %>
+      <% if (theme.excerpt_link){ %>
+        <p class="article-more-link">
+          <a href="<%- url_for(post.path) %>#more"><%= theme.excerpt_link %></a>
+        </p>
+      <% } %>
+    <% } else { %>
+      <%- post.content %>
+    <% } %>
+    </h6>
+
 </section>
 <% }); %>
 <nav class="pagination" role="pagination">
