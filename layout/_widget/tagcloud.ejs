@@ -1,0 +1,8 @@
+<% if (site.tags.length){ %>
+  <div class="widget-wrap">
+    <h6 class="widget-title"> <a href="<%- config.root %>"><%= __('tagcloud') %> </a> </h6>
+    <div class="widget tagcloud">
+      <%- tagcloud() %>
+    </div>
+  </div>
+<% } %>

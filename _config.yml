@@ -1,0 +1,40 @@
+menu:
+  home: /
+  archives: /archives
+  tags: /tags
+  categories: /categories
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+  icon: icon.png
+  autodiscovery: true
+  template:
+
+
+logo: /asset/favicon.ico
+rss: /atom.xml
+disqus: fcbai-blog
+google_analytics:
+
+sidebar: right
+widgets:
+# - category
+# - tag
+- tagcloud
+# - archive
+# - recent_posts
+
+# Social accounts
+instagram:
+pinterest:
+github: baifachuan
+facebook:
+twitter:
+linkedin:
