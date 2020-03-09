@@ -10,6 +10,8 @@
 
 可以点击预览: [Live Demo](www.baifachuan.com)
 
+按照我的需要，我新增了类似置顶，标签云，标签列表，左侧的菜单等功能，可以在主题的confgig文件中选择。
+
 ## Installation
 
 ### Install
