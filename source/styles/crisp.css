@@ -104,7 +104,7 @@ img, iframe {
 a {
 	font-weight:700;
 	text-decoration:none;
-	color: #5cc265; /* Change Link Color */
+	color: #000000; /* Change Link Color default #5cc265 */
 }
 a:hover {
 	text-decoration:underline;
